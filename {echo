@@ -1,0 +1,1 @@
+<script>echo const socket = io();echo const editor = document.getElementById("editor");echo editor.addEventListener("input", () = socket.emit("text-update", editor.value);echo });echo socket.on("text-update", (text) = editor.value = text;echo });echo </script>echo </body>echo </html>

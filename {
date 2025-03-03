@@ -1,0 +1,1 @@
+socket.on("text-update", (text) =  
